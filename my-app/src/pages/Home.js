@@ -1,7 +1,9 @@
 function Home(){
     return(
         <>
-        <h2>Go to home</h2>
+        <h2>You are at the Right spot</h2>
+
+
         </>
     );
 }
