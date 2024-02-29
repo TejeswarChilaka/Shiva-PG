@@ -1,7 +1,8 @@
 function Home(){
     return(
         <>
-        <h2>You are at the Right spot</h2>
+        <h2>Launching on</h2>
+        <h1> --MahaShivaRatri-- </h1>
 
 
         </>

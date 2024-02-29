@@ -5,14 +5,14 @@ import Rooms from "./pages/Rooms";
 import Dining from "./pages/Dining";
 import Gym from "./pages/Gym";
 import Maintenance from "./pages/Maintenance";
-import NavBar from "./NavBar";
+import MyNavBar from "./NavBar";
 import './App.css';
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <NavBar></NavBar>
+        <MyNavBar></MyNavBar>
         <Routes>
           <Route path="/*" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
