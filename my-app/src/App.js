@@ -27,7 +27,6 @@ function App() {
           <Route path="/rooms" element={<Rooms />}></Route>
           <Route path="/rooms/3share" element={<Share3 />}></Route>
           <Route path="/rooms/4share" element={<Share4 />}></Route>
-          
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/gallery" element={<Gallery />}></Route>
           <Route path="/signup" element={<SignUp />}></Route>

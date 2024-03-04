@@ -1,14 +1,15 @@
 import NavBar from "../NavBar/NavBar_Rooms";
-
+import { Outlet } from "react-router-dom";
 
 function Rooms() {
   return (
     <>
-  
+      <NavBar></NavBar>
       <h2>
         Mahashivratri is of great significance for all those who aspire for the
         Ultimate. May this night become an exuberant awakening for you.
       </h2>
+      <Outlet></Outlet>
       <p>
         In the Indian culture, at one time, there used to be 365 festivals in a
         year. In other words, they just needed an excuse to celebrate every day
@@ -18,7 +19,6 @@ function Rooms() {
         planting, and harvesting. For every situation there was a festival. But
         Mahashivratri is of a different significance.
       </p>
-      <NavBar></NavBar>
     </>
   );
 }
