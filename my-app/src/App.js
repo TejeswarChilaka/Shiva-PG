@@ -14,6 +14,7 @@ import Dining from "./pages/About/Dining";
 import Yoga from "./pages/About/Yoga";
 import Profile from "./pages/Profile";
 import "./App.css";
+import Methods from "./pages/About/Methods";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="about" element={<Outlet />}></Route>
             <Route path="dining" element={<Dining />}></Route>
             <Route path="yoga" element={<Yoga />}></Route>
+            <Route path="yoga/:methodId" element={<Methods />}></Route>
           </Route>
 
           <Route path="/rooms" element={<Rooms />}>
@@ -52,6 +54,3 @@ function App() {
 
 export default App;
 
-
-{/* <Route path="/rooms/3share" element={<Share3 />}></Route>
-          <Route path="/rooms/4share" element={<Share4 />}></Route> */}

@@ -26,3 +26,24 @@ const  MyNavBar = () =>{
 }
 
 export default MyNavBar;
+
+// const MyNavbar = () => {
+//     return (
+//       <Navbar bg="dark" variant="dark" expand="lg">
+//         <Navbar.Brand href="#home">Your Logo</Navbar.Brand>
+//         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+//         <Navbar.Collapse id="basic-navbar-nav">
+//           <Nav className="mr-auto">
+//             <Nav.Link to="/">Home</Nav.Link>
+//             <Nav.Link to="/about">About</Nav.Link>
+//             <Nav.Link to="/rooms">Rooms</Nav.Link>
+//             <Nav.Link to="/contact">Contact</Nav.Link>
+//             <Nav.Link to="/gallery">Gallery</Nav.Link>
+//             <Nav.Link to="/profile">Profile</Nav.Link>
+//           </Nav>
+//         </Navbar.Collapse>
+//       </Navbar>
+//     );
+//   };
+  
+//   export default MyNavbar;
