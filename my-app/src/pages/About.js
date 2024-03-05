@@ -1,4 +1,5 @@
 import NavBar from "../NavBar/NavBar_About";
+import { Outlet } from "react-router-dom";
 
 
 function About() {
@@ -12,6 +13,7 @@ function About() {
         intense spiritual experience.
       </p>
       <NavBar></NavBar>
+      <Outlet></Outlet>
     
     </>
   );

@@ -1,4 +1,5 @@
 import NavBar from "../NavBar/NavBar_SignUp";
+import { Outlet } from "react-router-dom";
 
 
 function SignUp() {
@@ -14,7 +15,7 @@ function SignUp() {
         one energy which manifests itself in millions of ways.
       </h4>
       <NavBar/>
-     
+      <Outlet></Outlet>
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import  Navbar from "react-bootstrap/Navbar";
+// import NavBarR from "./NavBar_Rooms";
 
 
 const  MyNavBar = () =>{
@@ -17,6 +18,7 @@ const  MyNavBar = () =>{
                 <li> <button > <Link to="/signup"> SignUp </Link> </button></li>
                 
             </ul>
+            
         </nav>
         </Navbar>
     ); 
