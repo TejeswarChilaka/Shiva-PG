@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 
 function NavBar_Rooms() {
   return (
@@ -6,12 +7,13 @@ function NavBar_Rooms() {
       <ul>
         <li>
           <Link to="/rooms/3share">
-            <button type="button">3 Share</button>
+          <Button variant="contained" color="success">3Share</Button>
           </Link>
         </li>
+        <br></br>
         <li>
           <Link to="/rooms/4share">
-            <button type="button">4 Share</button>
+          <Button variant="contained" color="success">4Share</Button>
           </Link>
         </li>
       </ul>

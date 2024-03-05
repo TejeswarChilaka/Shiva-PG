@@ -6,12 +6,13 @@ import MyNavBar from "./NavBar/NavBar";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import SignUp from "./pages/SignUp";
-import LogIn from "./pages/SignUp/logIn";
 import SignIn from "./pages/SignUp/signIn";
+import LogIn from "./pages/SignUp/logIn";
 import Share3 from "./pages/Rooms/3-share";
 import Share4 from "./pages/Rooms/4-share";
 import Dining from "./pages/About/Dining";
 import Yoga from "./pages/About/Yoga";
+import Profile from "./pages/Profile";
 import "./App.css";
 
 function App() {
@@ -33,8 +34,6 @@ function App() {
             <Route path="4share" element={<Share4 />}></Route>
           </Route>
 
-          {/* <Route path="/rooms/3share" element={<Share3 />}></Route>
-          <Route path="/rooms/4share" element={<Share4 />}></Route> */}
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/gallery" element={<Gallery />}></Route>
 
@@ -43,6 +42,8 @@ function App() {
             <Route path="login" element={<LogIn />}></Route>
             <Route path="signin" element={<SignIn />}></Route>
           </Route>
+
+          <Route path="/profile" element={<Profile />}></Route>
         </Routes>
       </BrowserRouter>
     </>
@@ -50,3 +51,7 @@ function App() {
 }
 
 export default App;
+
+
+{/* <Route path="/rooms/3share" element={<Share3 />}></Route>
+          <Route path="/rooms/4share" element={<Share4 />}></Route> */}

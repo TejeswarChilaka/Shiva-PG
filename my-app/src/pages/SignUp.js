@@ -14,7 +14,7 @@ function SignUp() {
         existence, everything that you know as the cosmos and galaxies, is just
         one energy which manifests itself in millions of ways.
       </h4>
-      <NavBar/>
+      <NavBar></NavBar>
       <Outlet></Outlet>
     </>
   );
