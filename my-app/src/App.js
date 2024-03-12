@@ -16,9 +16,12 @@ import Profile from "./pages/Profile";
 import "./App.css";
 import Methods from "./pages/About/Methods";
 
+// import img from "./imag.jpg"
+// style={{backgroundImage:`url(${img})`}}
+
 function App() {
   return (
-    <>
+    <div >
       <BrowserRouter>
         <MyNavBar></MyNavBar>
         <Routes>
@@ -48,7 +51,7 @@ function App() {
           <Route path="/profile" element={<Profile />}></Route>
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 
