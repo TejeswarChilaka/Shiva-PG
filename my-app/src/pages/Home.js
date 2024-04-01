@@ -1,4 +1,4 @@
-function Home() {
+ function Home() {
   return (
     <>
       <h2>Launching on</h2>

@@ -41,7 +41,7 @@ const MyNavbar = () => {
             <Nav.Link href="/contact">Contact</Nav.Link>
             <Nav.Link href="/gallery">Gallery</Nav.Link>
             <Nav.Link href="/profile">Profile</Nav.Link>
-            <Button><Nav.Link href="/signup">SignUp</Nav.Link></Button>
+            <Button><Nav.Link href="/account">Account</Nav.Link></Button>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -5,9 +5,9 @@ import Rooms from "./pages/Rooms";
 import MyNavBar from "./NavBar/NavBar";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
-import SignUp from "./pages/SignUp";
-import SignIn from "./pages/SignUp/signIn";
-import LogIn from "./pages/SignUp/logIn";
+import Account from "./pages/Account";
+import SignUp from "./pages/Account/SignUp";
+import LogIn from "./pages/Account/LogIn";
 import Share3 from "./pages/Rooms/3-share";
 import Share4 from "./pages/Rooms/4-share";
 import Dining from "./pages/About/Dining";
@@ -16,8 +16,7 @@ import Profile from "./pages/Profile";
 import "./App.css";
 import Methods from "./pages/About/Methods";
 
-// import img from "./imag.jpg"
-// style={{backgroundImage:`url(${img})`}}
+
 
 function App() {
   return (
@@ -42,10 +41,10 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/gallery" element={<Gallery />}></Route>
 
-          <Route path="/signup" element={<SignUp />}>
-            <Route path="signup" element={<Outlet />}></Route>
+          <Route path="/account" element={<Account />}>
+            <Route path="account" element={<Outlet />}></Route>
             <Route path="login" element={<LogIn />}></Route>
-            <Route path="signin" element={<SignIn />}></Route>
+            <Route path="signup" element={<SignUp />}></Route>
           </Route>
 
           <Route path="/profile" element={<Profile />}></Route>
