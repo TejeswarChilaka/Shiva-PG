@@ -1,5 +1,5 @@
 import Yoga from "./Yoga";
-import yogicmethods from "./yogicmethods";
+import yogicmethods from "./yogicmethods"; 
 import { useParams } from "react-router-dom";
 
 
